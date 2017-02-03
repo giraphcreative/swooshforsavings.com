@@ -53,11 +53,7 @@ header {
 		padding: 20px;
 
 		@include respond-to( 768px ) {
-			padding: 20px 28% 20px 20px;
-		}
-
-		@include respond-to( 1024px ) {
-			padding: 20px 25% 20px 20px;
+			padding: 20px 20% 20px 20px;
 		}
 	}
 
@@ -89,7 +85,7 @@ header {
 
 // wrap div
 .wrap {
-	max-width: 1100px;
+	max-width: 900px;
 	margin: 0 auto;
 	position: relative;
 	@include clearfix;
@@ -282,7 +278,7 @@ input[type=submit], button, .button {
 	font-size: .8em;
 	line-height: 1.3em;
 	text-align: left;
-	color: $grey;
+	color: lighten( $grey, 30% );
 
 	img {
 		float: right;
