@@ -6,7 +6,7 @@ var calculate = function() {
 	var amount = $(".amount").val().replace(/[^0-9.]/g,"");
 
 	// determine rate
-	var rate = $('.discount:checked').val();
+	var rate = 2.95 * $('.discount:checked').val();
 	
 	var loan_info = $.loanInfo({
 		'amount': amount,
