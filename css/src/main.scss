@@ -3,7 +3,6 @@
 // color variables
 $grey: #414042;
 $blue: #0e416a;
-$blue-dark: #214099;
 $teal: #1AADDD;
 $green: #66BD5A;
 $lime: #A2CE4D;
@@ -108,10 +107,17 @@ header {
 
 // colors
 .bg-blue { background: $blue; }
-.bg-blue-dark { background: $blue-dark; }
 .bg-teal { background: $teal; }
-.bg-green { background: $green; }
-.bg-lime { background: $lime; }
+.bg-orange { background: $orange; }
+.text-blue { color: $blue; }
+.text-teal { color: $teal; }
+.text-orange { color: $orange; }
+
+
+.text-large { 
+	font-size: 140%; 
+	padding: 20px 0;
+}
 
 
 
@@ -139,16 +145,6 @@ header {
 		padding: 10px 15px 10px;
 		color: white;
 		@include font-title;
-
-		button, input[type=submit], .btn, .calculate {
-			background: $blue-dark;
-			color: white;
-			display: block;
-			width: 100%;
-			max-width: 100%;
-			font-size: 1.1em;
-			margin: 10px 0;
-		}
 		
 		@include respond-to( 768px ) { 
 			font-size: 1.2em;
