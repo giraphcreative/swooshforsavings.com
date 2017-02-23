@@ -64,7 +64,7 @@ header {
 	h2 {
 		color: white;
 		font-size: 2.2em;
-		line-height: 1.5em;
+		line-height: 1.3em;
 	}
 
 	h3 {
@@ -101,6 +101,11 @@ header {
 .intro {	
 	font-size: 1.6em;
 	line-height: 1.5em;
+
+	.bottom {
+		padding: 20px 0;
+		text-align: center;
+	}
 }
 
 
